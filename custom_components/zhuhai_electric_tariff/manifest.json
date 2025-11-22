@@ -7,8 +7,9 @@
     "dependencies": [],
     "codeowners": ["@Alpha"],
     "requirements": [],
-    "config_flow": false
+    "config_flow": true
 
   }
+
 
 
