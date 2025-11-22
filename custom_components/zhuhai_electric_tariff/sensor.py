@@ -82,7 +82,10 @@ class ZhuhaiTariffSensor(SensorEntity):
         # 存储本月用量的起点（总电量读数）和上次重置日期
         self._monthly_reset_point = None
         self._last_reset_date = None
-
+    @property
+    def unique_id(self):
+        """返回此实体专用的唯一 ID."""
+        return self._attr_unique_id
     @property
     def name(self):
         return self._name
@@ -203,3 +206,4 @@ class ZhuhaiTariffSensor(SensorEntity):
         
         # 初始更新
         await self.async_update()
+
