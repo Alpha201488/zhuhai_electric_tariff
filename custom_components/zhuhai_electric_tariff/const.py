@@ -1,0 +1,1 @@
+DOMAIN = "zhuhai_energy_price"

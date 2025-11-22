@@ -1,16 +1,11 @@
 {
-    "domain": "zhuhai_electric_tariff",
-    "name": "Zhuhai Electricity Tariff",
-    "version": "1.0.2",
-    "documentation": "https://github.com/Alpha201488/zhuhai_electric_tariff",
-    "issue_tracker": "https://github.com/Alpha201488/zhuhai_electric_tariff/issues",
-    "dependencies": [],
-    "codeowners": ["@Alpha"],
-    "requirements": [],
-    "config_flow": true
-
-  }
-
-
-
-
+  "domain": "zhuhai_energy_price",
+  "name": "Zhuhai Energy Price (Pro)",
+  "version": "1.1.0",
+  "documentation": "https://example.com",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@user"
+  ]
+}
