@@ -1,7 +1,7 @@
 {
     "domain": "zhuhai_electric_tariff",
     "name": "Zhuhai Electricity Tariff",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "documentation": "https://github.com/Alpha201488/zhuhai_electric_tariff",
     "issue_tracker": "https://github.com/Alpha201488/zhuhai_electric_tariff/issues",
     "dependencies": [],
@@ -10,4 +10,5 @@
     "config_flow": false
 
   }
+
 
